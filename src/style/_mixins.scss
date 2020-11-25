@@ -2,3 +2,8 @@
   margin-top: 0;
   font-size: $font-size;
 }
+
+@mixin nav_button_color($bg_color, $font_color) {
+  background-color: $bg_color;
+  color: $font_color;
+}

@@ -1,0 +1,8 @@
+.nav_button {
+  > button {
+    border-style: solid;
+    border-color: $primary-color;
+    border-radius: 80px;
+    width: 80px;
+  }
+}

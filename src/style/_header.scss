@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $primary-color;
+
+  h1 {
+    align-self: center;
+    margin-left: 15px;
+  }
+
+  nav {
+    align-self: center;
+    margin: 15px;
+    @extend .nav_button;
+    > .login {
+      @include nav_button_color($body-bg, $primary-color);
+    }
+    > .register {
+      @include nav_button_color($primary-color, $white);
+    }
+  }
+}
